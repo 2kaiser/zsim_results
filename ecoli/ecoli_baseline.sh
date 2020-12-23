@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --ntasks=1
 
-#SBATCH --mem=3G
+#SBATCH --mem=5G
 srun /home/sacheung/zsim/build/opt/zsim 2d_baseline.cfg
 srun /home/sacheung/zsim/build/opt/zsim 3d_baseline.cfg
 srun /home/sacheung/zsim/build/opt/zsim m3d_baseline.cfg
