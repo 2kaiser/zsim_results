@@ -1,7 +1,7 @@
 #!/bin/bash 
 #BATCH --job-name=test
 #SBATCH --output=ecoli_slurm_baseline.txt
-#SBATCH --cpus-per-task=16
+
 #SBATCH --ntasks=1
 
 #SBATCH --mem=2G
