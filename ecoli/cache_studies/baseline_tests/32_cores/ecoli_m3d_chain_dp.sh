@@ -2,7 +2,7 @@
 #BATCH --job-name=test
 #SBATCH --output=ecoli_slurm_chain_dp.txt
 
-#SBATCH --ntasks=1
+
 
 #SBATCH --mem=2G
 #srun /home/sacheung/zsim/build/opt/zsim 2d_chain_dp.cfg
