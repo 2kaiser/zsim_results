@@ -1,13 +1,13 @@
-[H] Starting zsim, built Fri Dec 18 01:55:21 CET 2020 (rev main:1:44c1fc9:99fc 2968+ 1007- 12fa156f)
-[H] Creating global segment, 4096 MBs
-[H] Global segment shmid = 48
+[H] Starting zsim, built Wed Jan 13 00:15:09 CET 2021 (rev main:1:44c1fc9:117fc 3135+ 1036- ca509049)
+[H] Creating global segment, 17000 MBs
+[H] Global segment shmid = 124289024
 [H] Deadlock detection OFF
-[H] Child 1205212 done
+[H] Attached to global heap
+[M::mm_idx_gen::6.824*1.09] collected minimizers
+[M::mm_idx_gen::9.387*1.29] sorted minimizers
+[M::main::9.438*1.29] loaded/built the index for 3 target sequence(s)
+[M::mm_mapopt_update::9.755*1.28] mid_occ = 15
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 3
+[M::mm_idx_stat::9.936*1.27] distinct minimizers: 976224 (96.28% are singletons); average occurrences: 1.071; average spacing: 5.350; total length: 5594605
+[H] Child 33817 done
 [H] All children done, exiting
-E: Attach to pid 1205212 failed. 
-E:   The Operating System configuration prevents Pin from using the default (parent) injection mode.
-E:   To resolve this, either execute the following (as root):
-E:   $ echo 0 > /proc/sys/kernel/yama/ptrace_scope
-E:   Or use the "-injection child" option.
-E:   For more information, regarding child injection, see Injection section in the Pin User Manual.
-E: 
