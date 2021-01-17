@@ -4,7 +4,7 @@
 
 #SBATCH --ntasks=1
 
-#SBATCH --mem=20G
+#SBATCH --mem=25G
 srun /home/sacheung/zsim/build/opt/zsim 2d_64.cfg
 #srun /home/sacheung/zsim/build/opt/zsim 3d_baseline.cfg
 #srun /home/sacheung/zsim/build/opt/zsim m3d_baseline.cfg
