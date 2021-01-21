@@ -1,10 +1,10 @@
 #!/bin/bash 
-#BATCH --job-name=test
+#SBATCH --job-name=3d32_UL
 #SBATCH --output=ecoli_slurm_3d_32txt
 
 #SBATCH --ntasks=1
 
-#SBATCH --mem=20G
+#SBATCH --mem=15G
 #srun /home/sacheung/zsim/build/opt/zsim 2d_baseline.cfg
 srun /home/sacheung/zsim/build/opt/zsim 3d_32.cfg
 #srun /home/sacheung/zsim/build/opt/zsim m3d_baseline.cfg
